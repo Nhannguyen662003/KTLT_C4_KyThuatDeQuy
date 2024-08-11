@@ -63,6 +63,8 @@ int main() {
             _getch();
             break;
         case 4:
+            printf("Ket qua: %.2lf\n", odd_fraction_sum(n));
+            _getch();
             break;
         case 5:        
             break;
@@ -128,4 +130,12 @@ double fraction_sum_non_recursive(int n) {
     return sum;
 }
 
+// 4.
+double odd_fraction_sum(int n) {
+    double sum = 0;
+    for (int i = 1; i <= n; i++) {
+        sum += 1.0 / (2 * i + 1);
+    }
+    return sum;
+}
 
