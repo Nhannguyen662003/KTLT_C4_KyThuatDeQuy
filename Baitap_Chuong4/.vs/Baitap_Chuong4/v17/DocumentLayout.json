@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\HK Summer\\KT_LT\\Exercise\\Ch\u01B0\u01A1ng 4\\New folder\\Baitap_Chuong4\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8931B183-357A-492B-A6A5-FD41E2F80FBF}|Baitap_Chuong4\\Baitap_Chuong4.vcxproj|D:\\HK Summer\\KT_LT\\Exercise\\Ch\u01B0\u01A1ng 4\\New folder\\Baitap_Chuong4\\Baitap_Chuong4\\Baitap_Chuong4_Cau6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8931B183-357A-492B-A6A5-FD41E2F80FBF}|Baitap_Chuong4\\Baitap_Chuong4.vcxproj|solutionrelative:Baitap_Chuong4\\Baitap_Chuong4_Cau6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8931B183-357A-492B-A6A5-FD41E2F80FBF}|Baitap_Chuong4\\Baitap_Chuong4.vcxproj|D:\\HK Summer\\KT_LT\\Exercise\\Ch\u01B0\u01A1ng 4\\New folder\\Baitap_Chuong4\\Baitap_Chuong4\\Baitap_Chuong4_Cau5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8931B183-357A-492B-A6A5-FD41E2F80FBF}|Baitap_Chuong4\\Baitap_Chuong4.vcxproj|solutionrelative:Baitap_Chuong4\\Baitap_Chuong4_Cau5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8931B183-357A-492B-A6A5-FD41E2F80FBF}|Baitap_Chuong4\\Baitap_Chuong4.vcxproj|D:\\HK Summer\\KT_LT\\Exercise\\Ch\u01B0\u01A1ng 4\\New folder\\Baitap_Chuong4\\Baitap_Chuong4\\Baitap_Chuong4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8931B183-357A-492B-A6A5-FD41E2F80FBF}|Baitap_Chuong4\\Baitap_Chuong4.vcxproj|solutionrelative:Baitap_Chuong4\\Baitap_Chuong4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8931B183-357A-492B-A6A5-FD41E2F80FBF}|Baitap_Chuong4\\Baitap_Chuong4.vcxproj|D:\\HK Summer\\KT_LT\\Exercise\\Ch\u01B0\u01A1ng 4\\New folder\\Baitap_Chuong4\\Baitap_Chuong4\\Baitap_Chuong4_Cau4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8931B183-357A-492B-A6A5-FD41E2F80FBF}|Baitap_Chuong4\\Baitap_Chuong4.vcxproj|D:\\HK Summer\\KT_LT\\Exercise\\Ch\u01B0\u01A1ng 4\\New folder\\Baitap_Chuong4\\Baitap_Chuong4\\Baitap_Chuong4_Cau2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8931B183-357A-492B-A6A5-FD41E2F80FBF}|Baitap_Chuong4\\Baitap_Chuong4.vcxproj|solutionrelative:Baitap_Chuong4\\Baitap_Chuong4_Cau2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8931B183-357A-492B-A6A5-FD41E2F80FBF}|Baitap_Chuong4\\Baitap_Chuong4.vcxproj|D:\\HK Summer\\KT_LT\\Exercise\\Ch\u01B0\u01A1ng 4\\New folder\\Baitap_Chuong4\\Baitap_Chuong4\\Baitap_Chuong4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8931B183-357A-492B-A6A5-FD41E2F80FBF}|Baitap_Chuong4\\Baitap_Chuong4.vcxproj|solutionrelative:Baitap_Chuong4\\Baitap_Chuong4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,19 +39,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Baitap_Chuong4_Cau6.cpp",
+              "DocumentMoniker": "D:\\HK Summer\\KT_LT\\Exercise\\Ch\u01B0\u01A1ng 4\\New folder\\Baitap_Chuong4\\Baitap_Chuong4\\Baitap_Chuong4_Cau6.cpp",
+              "RelativeDocumentMoniker": "Baitap_Chuong4\\Baitap_Chuong4_Cau6.cpp",
+              "ToolTip": "D:\\HK Summer\\KT_LT\\Exercise\\Ch\u01B0\u01A1ng 4\\New folder\\Baitap_Chuong4\\Baitap_Chuong4\\Baitap_Chuong4_Cau6.cpp",
+              "RelativeToolTip": "Baitap_Chuong4\\Baitap_Chuong4_Cau6.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-11T12:10:07.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Baitap_Chuong4_Cau5.cpp",
               "DocumentMoniker": "D:\\HK Summer\\KT_LT\\Exercise\\Ch\u01B0\u01A1ng 4\\New folder\\Baitap_Chuong4\\Baitap_Chuong4\\Baitap_Chuong4_Cau5.cpp",
               "RelativeDocumentMoniker": "Baitap_Chuong4\\Baitap_Chuong4_Cau5.cpp",
               "ToolTip": "D:\\HK Summer\\KT_LT\\Exercise\\Ch\u01B0\u01A1ng 4\\New folder\\Baitap_Chuong4\\Baitap_Chuong4\\Baitap_Chuong4_Cau5.cpp",
               "RelativeToolTip": "Baitap_Chuong4\\Baitap_Chuong4_Cau5.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-11T11:56:28.772Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Baitap_Chuong4_Cau4.cpp",
               "DocumentMoniker": "D:\\HK Summer\\KT_LT\\Exercise\\Ch\u01B0\u01A1ng 4\\New folder\\Baitap_Chuong4\\Baitap_Chuong4\\Baitap_Chuong4_Cau4.cpp",
               "RelativeDocumentMoniker": "Baitap_Chuong4\\Baitap_Chuong4_Cau4.cpp",
@@ -55,12 +72,11 @@
               "RelativeToolTip": "Baitap_Chuong4\\Baitap_Chuong4_Cau4.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-11T11:47:38.516Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-11T11:47:38.516Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Baitap_Chuong4_Cau3.cpp",
               "DocumentMoniker": "D:\\HK Summer\\KT_LT\\Exercise\\Ch\u01B0\u01A1ng 4\\New folder\\Baitap_Chuong4\\Baitap_Chuong4\\Baitap_Chuong4_Cau3.cpp",
               "RelativeDocumentMoniker": "Baitap_Chuong4\\Baitap_Chuong4_Cau3.cpp",
@@ -72,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Baitap_Chuong4_Cau2.cpp",
               "DocumentMoniker": "D:\\HK Summer\\KT_LT\\Exercise\\Ch\u01B0\u01A1ng 4\\New folder\\Baitap_Chuong4\\Baitap_Chuong4\\Baitap_Chuong4_Cau2.cpp",
               "RelativeDocumentMoniker": "Baitap_Chuong4\\Baitap_Chuong4_Cau2.cpp",
@@ -84,15 +100,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Baitap_Chuong4.cpp",
               "DocumentMoniker": "D:\\HK Summer\\KT_LT\\Exercise\\Ch\u01B0\u01A1ng 4\\New folder\\Baitap_Chuong4\\Baitap_Chuong4\\Baitap_Chuong4.cpp",
               "RelativeDocumentMoniker": "Baitap_Chuong4\\Baitap_Chuong4.cpp",
               "ToolTip": "D:\\HK Summer\\KT_LT\\Exercise\\Ch\u01B0\u01A1ng 4\\New folder\\Baitap_Chuong4\\Baitap_Chuong4\\Baitap_Chuong4.cpp",
               "RelativeToolTip": "Baitap_Chuong4\\Baitap_Chuong4.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAARAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAMAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-11T09:49:41.768Z"
+              "WhenOpened": "2024-08-11T09:49:41.768Z",
+              "EditorCaption": ""
             }
           ]
         }
