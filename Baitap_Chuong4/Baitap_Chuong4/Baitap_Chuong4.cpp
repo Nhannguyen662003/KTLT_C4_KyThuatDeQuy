@@ -79,6 +79,8 @@ int main() {
             _getch();
             break;
         case 8:
+            printf("Ket qua: %d\n", cumulative_sum(n));
+            _getch();
             break;
         case 9:
             break;
@@ -168,6 +170,15 @@ int square_sum(int n) {
     int sum = 0;
     for (int i = 1; i <= n; i++) {
         sum += i * i;
+    }
+    return sum;
+}
+
+// 8.
+int cumulative_sum(int n) {
+    int sum = 0;
+    for (int i = 1; i <= n; i++) {
+        sum += i * (i + 1) / 2;
     }
     return sum;
 }
