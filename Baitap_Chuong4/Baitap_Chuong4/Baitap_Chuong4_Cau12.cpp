@@ -20,6 +20,24 @@ int findFibonacciLessThanNRec(int n) {
     return fibonacciRec(0, 1, n);
 }
 
+// Hàm tính số Fibonacci gần nhất nhỏ hơn n theo cách khử đệ quy
+int findFibonacciLessThanNIter(int n) {
+    if (n <= 1) {
+        return 0; // Không có số Fibonacci nhỏ hơn 1
+    }
+
+    int a = 0;
+    int b = 1;
+    int next = a + b;
+
+    while (next < n) {
+        a = b;
+        b = next;
+        next = a + b;
+    }
+
+    return b; // Số Fibonacci gần nhất nhỏ hơn n
+}
 
 int main() {
     int n, choice;
@@ -46,6 +64,8 @@ int main() {
         printf("So Fibonacci lon nhat nho hon %d (de quy) la: %d\n", n, result);
         break;
     case 2:
+        result = findFibonacciLessThanNIter(n);
+        printf("So Fibonacci lon nhat nho hon %d (khu de quy) la: %d\n", n, result);
         break;
     default:
         printf("Lua chon khong hop le. Vui long thu lai.\n");
