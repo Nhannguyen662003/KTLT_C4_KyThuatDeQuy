@@ -17,6 +17,22 @@ int An_formula1(int n) {
     }
 }
 
+// Hàm tính A_n theo công th?c 2: A_1 = 1; A_2 = 2; A_3 = 3; A_n+3 = 2A_n+2 + A_n+1 - 3A_n
+int An_formula2(int n) {
+    if (n == 1) {
+        return 1;
+    }
+    else if (n == 2) {
+        return 2;
+    }
+    else if (n == 3) {
+        return 3;
+    }
+    else {
+        return 2 * An_formula2(n - 1) + An_formula2(n - 2) - 3 * An_formula2(n - 3);
+    }
+}
+
 int main() {
     int choice, n, result;
 
@@ -46,7 +62,14 @@ int main() {
             result = An_formula1(n);
             printf("Gia tri A(%d) theo cong thuc 1 la: %d\n", n, result);
             break;
-        case 2:          
+        case 2:
+            if (n < 1) {
+                printf("n phai la so nguyen duong (n >= 1) voi cong thuc 2.\n");
+            }
+            else {
+                result = An_formula2(n);
+                printf("Gia tri A(%d) theo cong thuc 2 la: %d\n", n, result);
+            }
             break;
         default:
             printf("Lua chon khong hop le. Vui long thu lai.\n");
@@ -55,3 +78,4 @@ int main() {
 
     return 0;
 }
+
