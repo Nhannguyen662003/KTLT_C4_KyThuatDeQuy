@@ -21,7 +21,8 @@ int main() {
     while (1) {
         printf("Chon tinh toan: f(1) =1; f(2n) =2f(n); f(2n+1) = 2f(n) + 3f(n+1).\n");
         printf("1. Tinh f(5)\n");
-        printf("2. Thoat\n");
+        printf("2. Tinh f(n) cho n duoc nhap tu ban phim\n");
+        printf("3. Thoat\n");
         printf("Nhap lua chon cua ban (1-3): ");
         scanf("%d", &choice);
 
@@ -35,6 +36,14 @@ int main() {
             printf("Gia tri f(5) la: %d\n", f(5));
             break;
         case 2:
+            printf("Nhap so nguyen duong n: ");
+            scanf("%d", &n);
+            if (n < 1) {
+                printf("n phai la so nguyen duong.\n");
+            }
+            else {
+                printf("Gia tri f(%d) la: %d\n", n, f(n));
+            }
             break;
         default:
             printf("Lua chon khong hop le. Vui long thu lai.\n");
@@ -43,3 +52,4 @@ int main() {
 
     return 0;
 }
+
