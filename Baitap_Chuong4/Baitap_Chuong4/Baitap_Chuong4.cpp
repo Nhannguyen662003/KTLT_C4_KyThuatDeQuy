@@ -58,6 +58,9 @@ int main() {
             _getch();
             break;
         case 3:
+            printf("Ket qua de quy: %.2lf\n", fraction_sum_recursive(n));
+            printf("Ket qua khong de quy: %.2lf\n", fraction_sum_non_recursive(n));
+            _getch();
             break;
         case 4:
             break;
@@ -107,6 +110,20 @@ double sqrt_sum_non_recursive(int n) {
     double sum = sqrt(2);
     for (int i = 1; i < n; i++) {
         sum = sqrt(2 + sum);
+    }
+    return sum;
+}
+
+// 3.
+double fraction_sum_recursive(int n) {
+    if (n == 1) return 1.0 / 2;
+    return (double)n / (n + 1) + fraction_sum_recursive(n - 1);
+}
+
+double fraction_sum_non_recursive(int n) {
+    double sum = 0;
+    for (int i = 1; i <= n; i++) {
+        sum += (double)i / (i + 1);
     }
     return sum;
 }
