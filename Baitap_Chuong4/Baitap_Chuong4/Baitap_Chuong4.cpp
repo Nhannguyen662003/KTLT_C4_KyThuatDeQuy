@@ -83,6 +83,8 @@ int main() {
             _getch();
             break;
         case 9:
+            printf("Ket qua: %.2lf\n", alternating_fraction_sum(n));
+            _getch();
             break;
         case 10:
             break;
@@ -179,6 +181,15 @@ int cumulative_sum(int n) {
     int sum = 0;
     for (int i = 1; i <= n; i++) {
         sum += i * (i + 1) / 2;
+    }
+    return sum;
+}
+
+// 9.
+double alternating_fraction_sum(int n) {
+    double sum = 0;
+    for (int i = 1; i <= n; i++) {
+        sum += pow(-1, i + 1) * ((2 * i - 1) + 2 * i) / tgamma(2 * i + 1);
     }
     return sum;
 }
