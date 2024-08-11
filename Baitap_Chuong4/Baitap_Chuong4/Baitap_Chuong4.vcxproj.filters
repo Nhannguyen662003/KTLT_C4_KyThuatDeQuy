@@ -18,5 +18,8 @@
     <ClCompile Include="Baitap_Chuong4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Baitap_Chuong4_Cau2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
