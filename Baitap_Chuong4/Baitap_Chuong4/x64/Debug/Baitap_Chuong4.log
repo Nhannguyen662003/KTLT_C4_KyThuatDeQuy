@@ -1,2 +1,3 @@
-﻿  Baitap_Chuong4_Cau13.cpp
-  Baitap_Chuong4.vcxproj -> D:\HK Summer\KT_LT\Exercise\Chương 4\HuynhNghiax\KTLT_C4_KyThuatDeQuy\Baitap_Chuong4\x64\Debug\Baitap_Chuong4.exe
+﻿  Baitap_Chuong4_Cau14.cpp
+D:\HK Summer\KT_LT\Exercise\Chương 4\HuynhNghiax\KTLT_C4_KyThuatDeQuy\Baitap_Chuong4\Baitap_Chuong4\Baitap_Chuong4_Cau14.cpp(10,16): error C3861: 'findAn': identifier not found
+D:\HK Summer\KT_LT\Exercise\Chương 4\HuynhNghiax\KTLT_C4_KyThuatDeQuy\Baitap_Chuong4\Baitap_Chuong4\Baitap_Chuong4_Cau14.cpp(10,32): error C3861: 'findAn': identifier not found
