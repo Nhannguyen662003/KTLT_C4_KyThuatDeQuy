@@ -67,6 +67,8 @@ int main() {
             _getch();
             break;
         case 5:        
+            printf("Ket qua: %d\n", product_sum(n));
+            _getch();
             break;
         case 6:
             break;
@@ -139,3 +141,11 @@ double odd_fraction_sum(int n) {
     return sum;
 }
 
+// 5.
+int product_sum(int n) {
+    int sum = 0;
+    for (int i = 1; i <= n; i++) {
+        sum += i * (i + 1);
+    }
+    return sum;
+}
