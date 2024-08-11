@@ -71,6 +71,8 @@ int main() {
             _getch();
             break;
         case 6:
+            printf("Ket qua: %.2lf\n", product_fraction_sum(n));
+            _getch();
             break;
         case 7:
             break;
@@ -146,6 +148,15 @@ int product_sum(int n) {
     int sum = 0;
     for (int i = 1; i <= n; i++) {
         sum += i * (i + 1);
+    }
+    return sum;
+}
+
+// 6.
+double product_fraction_sum(int n) {
+    double sum = 0;
+    for (int i = 1; i <= n; i++) {
+        sum += 1.0 / (i * (i + 1) * (i + 2));
     }
     return sum;
 }
