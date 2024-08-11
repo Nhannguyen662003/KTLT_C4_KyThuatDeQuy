@@ -87,6 +87,8 @@ int main() {
             _getch();
             break;
         case 10:
+            printf("Ket qua: %.2lf\n", factorial_expression_sum(n));
+            _getch();
             break;
         case 11:
             break;
@@ -190,6 +192,15 @@ double alternating_fraction_sum(int n) {
     double sum = 0;
     for (int i = 1; i <= n; i++) {
         sum += pow(-1, i + 1) * ((2 * i - 1) + 2 * i) / tgamma(2 * i + 1);
+    }
+    return sum;
+}
+
+// 10.
+double factorial_expression_sum(int n) {
+    double sum = 0;
+    for (int i = 1; i <= n; i++) {
+        sum += (i * tgamma(i + 2)) / ((i + 1) + sqrt(i + 2));
     }
     return sum;
 }
