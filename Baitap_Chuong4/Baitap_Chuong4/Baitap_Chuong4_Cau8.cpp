@@ -19,10 +19,9 @@ int main() {
     int n;
 
     while (1) {
-        printf("Chon tinh toan:\n");
+        printf("Chon tinh toan: f(1) =1; f(2n) =2f(n); f(2n+1) = 2f(n) + 3f(n+1).\n");
         printf("1. Tinh f(5)\n");
-        printf("2. Tinh f(n) cho n duoc nhap tu ban phim\n");
-        printf("3. Thoat\n");
+        printf("2. Thoat\n");
         printf("Nhap lua chon cua ban (1-3): ");
         scanf("%d", &choice);
 
