@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\HK Summer\\KT_LT\\Exercise\\Ch\u01B0\u01A1ng 4\\HuynhNghiax\\KTLT_C4_KyThuatDeQuy\\Baitap_Chuong4\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8931B183-357A-492B-A6A5-FD41E2F80FBF}|Baitap_Chuong4\\Baitap_Chuong4.vcxproj|D:\\HK Summer\\KT_LT\\Exercise\\Ch\u01B0\u01A1ng 4\\HuynhNghiax\\KTLT_C4_KyThuatDeQuy\\Baitap_Chuong4\\Baitap_Chuong4\\Baitap_Chuong4_Cau8.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8931B183-357A-492B-A6A5-FD41E2F80FBF}|Baitap_Chuong4\\Baitap_Chuong4.vcxproj|solutionrelative:Baitap_Chuong4\\Baitap_Chuong4_Cau8.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8931B183-357A-492B-A6A5-FD41E2F80FBF}|Baitap_Chuong4\\Baitap_Chuong4.vcxproj|D:\\HK Summer\\KT_LT\\Exercise\\Ch\u01B0\u01A1ng 4\\HuynhNghiax\\KTLT_C4_KyThuatDeQuy\\Baitap_Chuong4\\Baitap_Chuong4\\Baitap_Chuong4_Cau7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8931B183-357A-492B-A6A5-FD41E2F80FBF}|Baitap_Chuong4\\Baitap_Chuong4.vcxproj|solutionrelative:Baitap_Chuong4\\Baitap_Chuong4_Cau7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -18,11 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Baitap_Chuong4_Cau8.cpp",
+              "DocumentMoniker": "D:\\HK Summer\\KT_LT\\Exercise\\Ch\u01B0\u01A1ng 4\\HuynhNghiax\\KTLT_C4_KyThuatDeQuy\\Baitap_Chuong4\\Baitap_Chuong4\\Baitap_Chuong4_Cau8.cpp",
+              "RelativeDocumentMoniker": "Baitap_Chuong4\\Baitap_Chuong4_Cau8.cpp",
+              "ToolTip": "D:\\HK Summer\\KT_LT\\Exercise\\Ch\u01B0\u01A1ng 4\\HuynhNghiax\\KTLT_C4_KyThuatDeQuy\\Baitap_Chuong4\\Baitap_Chuong4\\Baitap_Chuong4_Cau8.cpp",
+              "RelativeToolTip": "Baitap_Chuong4\\Baitap_Chuong4_Cau8.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-11T12:45:43.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Baitap_Chuong4_Cau6.cpp",
               "DocumentMoniker": "D:\\HK Summer\\KT_LT\\Exercise\\Ch\u01B0\u01A1ng 4\\HuynhNghiax\\KTLT_C4_KyThuatDeQuy\\Baitap_Chuong4\\Baitap_Chuong4\\Baitap_Chuong4_Cau6.cpp",
               "RelativeDocumentMoniker": "Baitap_Chuong4\\Baitap_Chuong4_Cau6.cpp",
@@ -34,13 +51,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Baitap_Chuong4_Cau7.cpp",
               "DocumentMoniker": "D:\\HK Summer\\KT_LT\\Exercise\\Ch\u01B0\u01A1ng 4\\HuynhNghiax\\KTLT_C4_KyThuatDeQuy\\Baitap_Chuong4\\Baitap_Chuong4\\Baitap_Chuong4_Cau7.cpp",
               "RelativeDocumentMoniker": "Baitap_Chuong4\\Baitap_Chuong4_Cau7.cpp",
               "ToolTip": "D:\\HK Summer\\KT_LT\\Exercise\\Ch\u01B0\u01A1ng 4\\HuynhNghiax\\KTLT_C4_KyThuatDeQuy\\Baitap_Chuong4\\Baitap_Chuong4\\Baitap_Chuong4_Cau7.cpp",
               "RelativeToolTip": "Baitap_Chuong4\\Baitap_Chuong4_Cau7.cpp",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-11T12:25:48.889Z",
               "EditorCaption": ""
