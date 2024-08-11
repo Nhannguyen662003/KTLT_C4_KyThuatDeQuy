@@ -45,5 +45,8 @@
     <ClCompile Include="Baitap_Chuong4_Cau11.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Baitap_Chuong4_Cau12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
