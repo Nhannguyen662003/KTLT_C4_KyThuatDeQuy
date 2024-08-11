@@ -91,6 +91,8 @@ int main() {
             _getch();
             break;
         case 11:
+            printf("Ket qua: %.2lf\n", complex_expression_sum(n));
+            _getch();
             break;
         case 0:
             printf("Thoat chuong trinh.\n");
@@ -201,6 +203,15 @@ double factorial_expression_sum(int n) {
     double sum = 0;
     for (int i = 1; i <= n; i++) {
         sum += (i * tgamma(i + 2)) / ((i + 1) + sqrt(i + 2));
+    }
+    return sum;
+}
+
+// 11.
+double complex_expression_sum(int n) {
+    double sum = 0;
+    for (int i = 1; i <= n; i++) {
+        sum += (i + sqrt(i + (i + 1))) / ((i + 1) + sqrt(tgamma(i + 2)));
     }
     return sum;
 }
