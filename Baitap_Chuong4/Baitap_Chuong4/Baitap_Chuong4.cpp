@@ -75,6 +75,8 @@ int main() {
             _getch();
             break;
         case 7:
+            printf("Ket qua: %d\n", square_sum(n));
+            _getch();
             break;
         case 8:
             break;
@@ -157,6 +159,15 @@ double product_fraction_sum(int n) {
     double sum = 0;
     for (int i = 1; i <= n; i++) {
         sum += 1.0 / (i * (i + 1) * (i + 2));
+    }
+    return sum;
+}
+
+// 7.
+int square_sum(int n) {
+    int sum = 0;
+    for (int i = 1; i <= n; i++) {
+        sum += i * i;
     }
     return sum;
 }
