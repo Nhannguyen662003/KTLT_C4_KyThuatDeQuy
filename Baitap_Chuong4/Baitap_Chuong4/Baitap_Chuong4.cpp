@@ -53,6 +53,9 @@ int main() {
             _getch();
             break;
         case 2:           
+            printf("Ket qua de quy: %.2lf\n", sqrt_sum_recursive(n));
+            printf("Ket qua khong de quy: %.2lf\n", sqrt_sum_non_recursive(n));
+            _getch();
             break;
         case 3:
             break;
@@ -84,7 +87,7 @@ int main() {
     return 0;
 }
 
-// Function definitions
+// 1.
 int sum_recursive(int n) {
     if (n == 1) return 1;
     return n + sum_recursive(n - 1);
@@ -94,6 +97,18 @@ int sum_non_recursive(int n) {
     return n * (n + 1) / 2;
 }
 
+// 2.
+double sqrt_sum_recursive(int n) {
+    if (n == 1) return sqrt(2);
+    return sqrt(2 + sqrt_sum_recursive(n - 1));
+}
 
+double sqrt_sum_non_recursive(int n) {
+    double sum = sqrt(2);
+    for (int i = 1; i < n; i++) {
+        sum = sqrt(2 + sum);
+    }
+    return sum;
+}
 
 
