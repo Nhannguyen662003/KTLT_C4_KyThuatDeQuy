@@ -143,7 +143,10 @@
     <ClCompile Include="Baitap_Chuong4_Cau13.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Baitap_Chuong4_Cau14.cpp" />
+    <ClCompile Include="Baitap_Chuong4_Cau14.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Baitap_Chuong4_Cau15.cpp" />
     <ClCompile Include="Baitap_Chuong4_Cau2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
